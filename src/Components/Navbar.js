@@ -62,7 +62,7 @@ const Navbar = () => {
         <Box
           sx={{ width: 250 }}
           role="presentation"
-          onClick={() => setOpenMenu(false)}
+          onClick={() => setOpenMenu(true)}
           onKeyDown={() => setOpenMenu(false)}
         >
           <List>
